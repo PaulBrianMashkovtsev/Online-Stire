@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+section {
+    width: 60%;
+    margin: auto;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+}
+.cards {
+    width: 250px;
+    padding: 20px;
+}
+.cards:hover {
+    background: grey;
+    cursor: pointer;
+}
+.image_box img {
+    width: 150px;
+    height: 200px;
+}
+
+.details p:nth-child(1) {
+    font-weight: bold;
+}
+.details p:nth-child(2) {
+    color: black;
+    font-size: 1rem;
+}
+.details p:nth-child(3) {
+    font-weight: bold;
+    color: grey;
+}
+.details button {
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    background-color: skyblue;
+    outline: none;
+}
