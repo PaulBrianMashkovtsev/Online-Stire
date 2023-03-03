@@ -26,13 +26,7 @@
     "eject": "react-scripts eject"
   },
 
-  "eslintConfig": {
-    "extends": "react-app",
-    "rules": {
-      "@typescript-eslint/no-redeclare": "off",
-      "no-redeclare": "off"
-    }
-  },
+
   "browserslist": {
     "production": [
       ">0.2%",
