@@ -1,5 +1,5 @@
 import React from 'react';
-import list from "./Items";
+import list from "../offers/Items";
 import Cards from "./Cards";
 import "./Offer.css";
 
